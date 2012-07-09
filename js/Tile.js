@@ -160,8 +160,8 @@
     };
 
     Tile.prototype.flag = function () {
-        this.setFlagged(true);
-        $(this.getElement()).addClass('flagged');
+        this.setFlagged(!this.isFlagged());
+        $(this.getElement()).toggleClass('flagged');
     };
     Tile.prototype.isFlagged = function () {
         return this.flagged;
