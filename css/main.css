@@ -1,0 +1,70 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: #D9D9F3;
+}
+#cheat-button {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 9999;
+    font-style: italic;
+}
+
+#load-game {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 9999;
+    font-style: bold;
+}
+
+#new-game {
+    text-align: center;
+}
+
+#play-area table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#play-area td {
+    font-weight: bold;
+    height: 32px;
+    width: 32px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../image/normal.png);
+    text-align: center;
+    vertical-align: center;
+}
+#play-area td.poked {
+    background-image: url(../image/poked.png);
+}
+#play-area td.exploded {
+    background-image: url(../image/bomb.png);
+}
+#play-area td.flagged {
+    background-image: url(../image/flag.png);
+}
+
+#save-game {
+    position: fixed;
+    right: 5px;
+    z-index: 9999;
+    font-style: bold;
+}
+#smiley {
+    float: left;
+    cursor: pointer;
+}
+th {
+    background-color: gray;
+    border-bottom: 5px solid black;
+}
+#timer {
+    background-color: black;
+    float: right;
+}
+#timer img {
+    padding-left: 1px;
+}

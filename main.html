@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <button id="load-game">Load Game</button>
+        <div id="new-game">
+            <p>Height: <input type="number" id="height" value="8"/></p>
+            <p>Width: <input type="number" id="width" value="8" /></p>
+            <p>Bombs: <input type="number" id="bombs" value="10" /></p>
+            <p>Cascading Pokes: <input type="checkbox" id="cascading-pokes" /></p>
+            <p><button id="start">Start</button></p>
+        </div>
+        <div id="play-area" />
+        <script src="vendor/jquery.js"></script>
+        <script src="js/Tile.js"></script>
+        <script src="js/Grid.js"></script>
+        <script src="js/Board.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
